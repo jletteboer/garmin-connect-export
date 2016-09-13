@@ -93,7 +93,7 @@ url_gc_post_auth = 'https://connect.garmin.com/post-auth/login?'
 url_gc_search    = 'http://connect.garmin.com/proxy/activity-search-service-1.0/json/activities?'
 url_gc_gpx_activity = 'https://connect.garmin.com/modern/proxy/download-service/export/gpx/activity/'
 url_gc_tcx_activity = 'https://connect.garmin.com/modern/proxy/download-service/export/tcx/activity/'
-url_gc_original_activity = 'http://connect.garmin.com/proxy/download-service/files/activity/'
+url_gc_original_activity = 'https://connect.garmin.com/modern/proxy/download-service/files/activity/'
 
 # Initially, we need to get a valid session cookie, so we pull the login page.
 http_req(url_gc_login)
